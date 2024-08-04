@@ -1,5 +1,5 @@
 export default ({
-    modules: ['@nuxtjs/tailwindcss', '@nuxt/content', 'nuxt-icon', "@nuxt/image"],
+    modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@nuxt/icon', "@nuxt/image"],
 
     content: {
         highlight: {
