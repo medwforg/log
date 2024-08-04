@@ -1,4 +1,5 @@
 <template>
+  <SpeedInsights />
   <main class="min-h-screen relative">
     <hero />
     <!-- <github /> -->
@@ -11,6 +12,7 @@
 </template>
 
 <script setup>
+import { SpeedInsights } from '@vercel/speed-insights/vue';
 import seoConfig from "../seoConfig/index";
 useHead({
   title: seoConfig.title,
